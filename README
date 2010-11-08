@@ -9,12 +9,12 @@ Browser Actions上でJavaScriptを実行します。
 
 
 -Notes
-  ・実行するJavaScriptでalertを使うと一瞬alertが出てそのあと
+　・実行するJavaScriptでalertを使うと一瞬alertが出てそのあと
 　　ウィンドウがとじてしまいます。
 　・ログを出力したい場合、log("string")を使用してください。
 
 created by syuta
-twitter:http://twitter.com/sytua
+twitter:http://twitter.com/syuta
 mail:nakamura.shuta@gmail.com
 
 
