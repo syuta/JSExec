@@ -1,0 +1,43 @@
+body {
+}
+
+img {
+}
+
+.srcarea {
+    font-size: 80%;
+    width:400px;
+    height:200px;
+}
+
+.logarea {
+    font-size: 80%;
+    width:400px;
+    height:200px;
+}
+
+.tablist {
+    height: 20px;
+}
+
+.tab_selector {
+    border: 1px solid #666666;
+    border_bottom: none;
+    padding: 2px 5px;
+    cursor: pointer;
+    background: #ffffff;
+}
+.selected {
+    background: #dddddd;
+}
+
+.tab {
+    border: 1px solid #666666;
+    padding: 0px 10px;
+    display: block;
+    width: 400px;
+}
+
+.noshow {
+    display: none;
+}

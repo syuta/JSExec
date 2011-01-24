@@ -1,30 +1,44 @@
+<!DOCTYPE html>
 <html>
-<head>
-<style>
-body {
-}
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Style-type" content="text/css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+  </head>
+  <body onload="pasteSelection()">
+    
+<div class="tablist">
+    <span id="tabsel1" class="tab_selector selected" onClick="tabChange(1);">JsFile</span>
+    <span id="tabsel2" class="tab_selector" onClick="tabChange(2);">navigator</span>
+    <span id="tabsel3" class="tab_selector" onClick="tabChange(3);">other</span>
+</div>
 
-img {
-}
 
-textarea {
-font-size: 80%;
-}
-</style>
-</head>
-<body onload="pasteSelection()">
-  write javascript code.
-  <textarea id ="area" name="area"cols=30 rows=12></textarea>
+<div id="tab1" class="tab">
+  <br>
+  moduleName:<input type='text' id='moduleName' /><br>
+  <textarea class="srcarea" id ="area" name="area"></textarea>
   <br>
   <br>
   log console.<br>
-  You can use log("string") method.
-  <textarea id ="logArea" name="logArea" readonly="true" cols=30 rows=12></textarea>
-  <input type="button" value="execute" onclick="exec()" />
-  <input type="button" value="clearLog" onclick="clearLog()" />
+  <textarea class="logarea" id ="logArea" name="logArea" readonly="true"></textarea>
+  <input type="button" value="exec" onclick="exec()" />
   <input type="button" value="copy" onclick="copy()" />
-  
-  <script src="eval.js"></script>
+  <input type="button" value="save" onclick="save()" />
+  <input type="button" value="load" onclick="" />
+  <input type="button" value="delFile" onclick="" />
+  <input type="button" value="delLog" onclick="clearLog()" />
 
+</div>
+<div id="tab2" class="noshow">
+  <br>
+   navigator
+</div>
+<div id="tab3" class="noshow">
+  <br>
+   other
+</div>
+
+  <script src="eval.js"></script>
 </body>
 </html>

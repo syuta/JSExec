@@ -13,6 +13,10 @@ Browser Actions上でJavaScriptを実行します。
 　　ウィンドウがとじてしまいます。
 　・ログを出力したい場合、log("string")を使用してください。
 
+
+-TODO
+  ・外部ファイル読み込み
+　
 created by syuta
 twitter:http://twitter.com/syuta
 mail:nakamura.shuta@gmail.com
